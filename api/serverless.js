@@ -24,10 +24,4 @@ export default async (req, res) => {
   app.server.emit("request", req, res);
 };
 
-app
-  .listen({
-    port: 3333,
-  })
-  .then(() => {
-    console.log("🚀 Server listening on port http://localhost:3333");
-  });
+

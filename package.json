@@ -5,7 +5,8 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "verce-build": "echo build"
+    "verce-build": "echo build",
+    "build": "tsc"
   },
   "author": "",
   "license": "ISC",

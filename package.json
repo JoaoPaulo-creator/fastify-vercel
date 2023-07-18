@@ -2,11 +2,10 @@
   "name": "fastify-vercel",
   "version": "1.0.0",
   "description": "",
-  "type": "module",
   "main": "index.js",
   "scripts": {
     "verce-build": "echo build",
-    "build": "tsc"
+    "build": "npx tsc"
   },
   "author": "",
   "license": "ISC",
